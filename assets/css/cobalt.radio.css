@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: Rust;
+    src: url("../font/Rust.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    padding-top: 50px;
+    background-image: url("../img/noise.png");
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #262626;
+    background-image: url("../img/noise.png");
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 2px;
+    background-color: #ce412b;
+    background-image: url("../img/noise.png");
+}
+
+a{
+    color: #ce412b!important;
+}
+
+hr{
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-rust{
+    font-family: 'Rust', sans-serif;
+}
+
+.text-input{
+    background-color: #efefef;
+    background-image: url(../img/noise.png);
+    border: 2px solid #777777;
+    border-radius: 5px;
+    font-size: 1.4em;
+}
+
+/* Button Form Fix*/
+.bff{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+/* Buttons */
+.btn-danger {
+    color: #212529;
+    background-color: rgba(206, 65, 43, .5);
+    border-color: #ce412b;
+}
+
+.btn-danger:hover, .btn-danger:active, .btn-danger:focus, .btn-danger:visited{
+    color: #212529;
+    background-color: rgba(206, 65, 43, .9);
+    border-color: #a14338;
+}
+
+.btn-success {
+    color: #212529;
+    background-color: rgba(0, 240, 120, .5);
+    border-color: #28a745;
+}
+
+.btn-success:hover, .btn-success:active, .btn-success:focus, .btn-success:visited{
+    color: #212529;
+    background-color: rgba(0, 240, 120, .9);
+    border-color: #276131;
+}
+
+.btn-warning {
+    color: #212529;
+    background-color: rgba(255, 193, 7, .5);
+    border-color: #ffc107;
+}
+.btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning:visited{
+    color: #212529;
+    background-color: rgba(255, 193, 7, .9);
+    border-color: #ffc107;
+}
+
+/* Modal */
+.modal-header{
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.modal-header, .modal-footer{
+    background-color: #dedede;
+    background-image: url("../img/noise.png");
+}
+
+.modal-footer{
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+.modal-content{
+    background-image: url("../img/noise.png");
+}
+
+/* Card */
+.card-header{
+    background-color: #dedede;
+    background-image: url("../img/noise.png");
+}
+
+.card-body{
+    background-image: url("../img/noise.png");
+    padding: 5px 5px 5px 25px;
+
+}
+.tb:nth-child(odd) {
+    background-color: #efefef;
+}
+
+/* Now Playing */
+.now-playing-label{
+    text-transform: uppercase;
+    text-shadow: 0 0 1px #00f078;
+}
+
+.now-playing{
+    background-color: rgba(0, 240, 120, .3);
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+}
